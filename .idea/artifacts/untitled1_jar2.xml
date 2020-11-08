@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="untitled1:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled1_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="untitled1.jar">
+        <element id="module-output" name="untitled1" />
+      </element>
+      <element id="library" level="module" name="JUnit5.4" module-name="untitled1" />
+      <element id="library" level="project" name="lib" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-jupiter-5.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-jupiter-api-5.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/apiguardian-api-1.0.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/opentest4j-1.1.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-platform-commons-1.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-jupiter-params-5.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-jupiter-engine-5.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Program Files/Junit/junit-platform-engine-1.4.2.jar" />
+    </root>
+  </artifact>
+</component>
