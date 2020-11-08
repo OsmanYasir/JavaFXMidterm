@@ -11,7 +11,7 @@
    <children>
       <VBox layoutX="14.0" layoutY="14.0" prefHeight="160.0" prefWidth="97.0" spacing="17.0">
          <children>
-            <Label text="Studentname">
+            <Label text="Student Name">
                <font>
                   <Font name="Trebuchet MS" size="15.0" />
                </font></Label>
@@ -24,14 +24,14 @@
                   <Font name="Trebuchet MS" size="15.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="66.0" text="Year">
+            <Label layoutX="10.0" layoutY="66.0" text="Birth Year">
                <font>
                   <Font name="Trebuchet MS" size="15.0" />
                </font>
             </Label>
          </children>
       </VBox>
-      <VBox layoutX="113.0" layoutY="14.0" prefHeight="203.0" prefWidth="156.0" spacing="10.0">
+      <VBox layoutX="127.0" layoutY="16.0" prefHeight="203.0" prefWidth="156.0" spacing="10.0">
          <children>
             <TextField fx:id="nametf" />
             <TextField fx:id="surnametf" layoutX="10.0" layoutY="10.0" />
@@ -40,10 +40,12 @@
          </children>
       </VBox>
       <Button fx:id="addbtn" layoutX="7.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Add" />
-      <Button fx:id="Savebtn" layoutX="164.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Save" />
-      <Button fx:id="Openbtn" layoutX="164.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Open" />
-      <TextField fx:id="savetf" layoutX="7.0" layoutY="249.0" />
-      <TextField fx:id="opentf" layoutX="7.0" layoutY="293.0" />
+      <Button fx:id="Savebtn" layoutX="246.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Save" />
+      <Button fx:id="Openbtn" layoutX="246.0" layoutY="258.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Open" />
+      <TextField fx:id="savetf" layoutX="7.0" layoutY="219.0" prefHeight="26.0" prefWidth="234.0" />
+      <TextField fx:id="opentf" layoutX="7.0" layoutY="261.0" prefHeight="26.0" prefWidth="234.0" />
       <Label fx:id="textlbl" layoutX="306.0" layoutY="16.0" prefHeight="314.0" prefWidth="280.0" />
+      <Label fx:id="lbl2" layoutX="6.0" layoutY="304.0" prefHeight="26.0" prefWidth="295.0" />
+      <Button fx:id="clearbtn" layoutX="71.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Clear" />
    </children>
 </AnchorPane>
