@@ -5,9 +5,11 @@ Students-Info
 
 ## Project Description
 
-This GUI is created with JavaFX. A project where there are several buttons for adding and receiving data from text files. There is also a JUnit Test class, a parent class and it's child class.
+This GUI is created with JavaFX. A project where there are several buttons for adding and receiving data from text files. There is also a JUnit Test class, a parent class and it's child class. The Student class inherits the Person Class. 
 
 ### Jar File
+
+JAR file location:  "out/artifacts/untitled1_jar/untitled1.jar"
 
 ***To open the jar file use this command:***
 
