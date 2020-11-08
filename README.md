@@ -7,15 +7,15 @@ Students-Info
 
 This GUI is created with JavaFX. A project where there are several buttons for adding and receiving data from text files. There is also a JUnit Test class, a parent class and it's child class.
 
-###Jar File
+### Jar File
 
-***How to open a JAR file;***
+***To open the jar file use this command:***
 
 ```
 java --module-path "%YOUR JAVAFX LIB%" --add-modules javafx.controls,javafx.fxml --add-modules javafx.base,javafx.graphics -jar %JAR LOCATION%
 ```
 
-***How to open my JAR file;***
+***For example in my case:***
 
 ```
  Java --module-path "D:\Program Files\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml --add-modules javafx.base,javafx.graphics -jar "out\artifacts\untitled1_jar\untitled1.jar"
