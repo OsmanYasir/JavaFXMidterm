@@ -54,8 +54,8 @@ public class Controller {
     public String readFile() {
         try {
 
-            String text = opentf.getText();
-            String all = Files.readString(Path.of(text));
+            String location = opentf.getText();
+            String all = Files.readString(Path.of(location));
             textlbl.setText(all);
             lbl2.setText("File Opened");
             System.out.println(all);
